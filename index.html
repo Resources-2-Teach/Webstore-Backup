@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resources2Teach</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="header">
+      <a href="#" class="logo">Resources2Teach</a>
+      <nav class="navbar">
+        <a href="#">Home</a>
+        <a href="library.html">Library</a>
+        <a href="#">Account</a>
+        <a href="#">Support</a>
+        <a href="#" class="cart" aria-label="Shopping Cart">
+          <svg class="cart-icon w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 4h1.5L9 16m0 0h8m-8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm8 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4Zm-8.5-3h9.25L19 7H7.312"/>
+          </svg>
+          <span class="cart-count" aria-label="Cart Item Count">0</span>
+        </a>
+      </nav>
+    </header>
+
+    <main>
+      <div class="hero-carousel">
+        <div class="carousel-container">
+          <div class="carousel-slide" style="background-image: url('images/hero-image-empower.jpg');">
+            <div class="carousel-text">
+              <h1>Empower Your Teaching</h1>
+              <button href=#>Discover More</button>
+            </div>
+          </div>
+          <div class="carousel-slide" style="background-image: url('images/hero-image-2.jpg');">
+            <div class="carousel-text">
+              <h1>Engage Your Students</h1>
+              <button href=#>Explore Now</button>
+            </div>
+          </div>
+          <div class="carousel-slide" style="background-image: url('images/hero-image-3.jpg');">
+            <div class="carousel-text">
+              <h1>Innovative Resources</h1>
+              <button href=#>Learn More</button>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-nav prev" onclick="changeSlide(-1)" aria-label="Previous Slide">&#10094;</button>
+        <button class="carousel-nav next" onclick="changeSlide(1)" aria-label="Next Slide">&#10095;</button>
+      </div>
+
+      <div class="tile">
+        <h1>What is Resources2Teach</h1>
+        <p>Resource2Teach is a friendly platform where teachers can buy and sell classroom resources made by fellow educators. From lesson plans to activity sheets, everything is crafted by teachers who know what works in the classroom. It’s all about sharing ideas, supporting each other, and making teaching a little easier and a lot more fun!</p>
+        <p>Read more about us <u>here</u></p>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Resources2Teach - Empowering Teachers Everywhere</p>
+    </footer>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
